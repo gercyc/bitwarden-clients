@@ -2,7 +2,7 @@
   "devFlags": {
     "storeSessionDecrypted": false,
     "managedEnvironment": {
-      "base": "https://localhost:8080"
+      "base": "https://localhost:8081/"
     }
   },
   "flags": {}

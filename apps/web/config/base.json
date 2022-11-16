@@ -1,16 +1,19 @@
 {
-  "urls": {},
-  "stripeKey": "pk_test_KPoCfZXu7mznb9uSCPZ2JpTD",
-  "braintreeKey": "sandbox_r72q8jq6_9pnxkwm75f87sdc2",
+  "urls": {
+    "icons": "https://icons.qa.bitwarden.pw",
+    "notifications": "https://notifications.camposdev.tech",
+    "scim": "https://scim.camposdev.tech",
+    "Api": "https://api.camposdev.tech",
+    "Identity": "https://identity.camposdev.tech"
+  },
+  "stripeKey": "SECRET",
+  "braintreeKey": "SECRET",
   "paypal": {
     "businessId": "AD3LAUZSNVPJY",
     "buttonAction": "https://www.sandbox.paypal.com/cgi-bin/webscr"
   },
-  "dev": {
-    "port": 8080,
-    "allowedHosts": "auto"
-  },
   "flags": {
+    "showTrial": true,
     "showPasswordless": false
   }
 }

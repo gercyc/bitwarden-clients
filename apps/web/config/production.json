@@ -1,0 +1,20 @@
+{
+  "urls": {
+    "icons": "https://icons.qa.bitwarden.pw",
+    "notifications": "https://notifications.camposdev.tech",
+    "scim": "https://scim.camposdev.tech",
+    "Api": "https://api.camposdev.tech",
+    "Identity": "https://identity.camposdev.tech"
+  },
+  "stripeKey": "SECRET",
+  "braintreeKey": "SECRET",
+  "paypal": {
+    "businessId": "AD3LAUZSNVPJY",
+    "buttonAction": "https://www.sandbox.paypal.com/cgi-bin/webscr"
+  },
+  "flags": {
+    "showPasswordless": true,
+    "showTrial": true
+  },
+  "devFlags": {}
+}

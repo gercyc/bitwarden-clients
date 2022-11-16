@@ -1,16 +1,13 @@
 {
   "urls": {
     "icons": "https://icons.qa.bitwarden.pw",
-    "notifications": "https://notifications.qa.bitwarden.pw",
-    "scim": "https://scim.qa.bitwarden.pw"
-  },
-  "dev": {
-    "proxyApi": "https://api.qa.bitwarden.pw",
-    "proxyIdentity": "https://identity.qa.bitwarden.pw",
-    "proxyEvents": "https://events.qa.bitwarden.pw"
+    "notifications": "https://notifications.camposdev.tech",
+    "scim": "https://scim.camposdev.tech",
+    "Api": "https://api.camposdev.tech",
+    "Identity": "https://identity.camposdev.tech"
   },
   "flags": {
-    "showTrial": true,
-    "showPasswordless": true
+    "showTrial": false,
+    "showPasswordless": false
   }
 }
