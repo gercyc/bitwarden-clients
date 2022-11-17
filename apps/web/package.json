@@ -14,6 +14,7 @@
     "build:oss:selfhost:watch": "cross-env ENV=selfhosted npm run build:oss:watch",
     "build:bit:selfhost:watch": "cross-env ENV=selfhosted npm run build:bit:watch",
     "build:oss:selfhost:prod": "cross-env ENV=selfhosted NODE_ENV=production npm run build:oss",
+    "build:oss:selfhost:grc": "cross-env ENV=selfhosted NODE_ENV=production LOGGING=true npm run build:oss",
     "build:bit:selfhost:prod": "cross-env ENV=selfhosted NODE_ENV=production npm run build:bit",
     "build:bit:ee": "cross-env NODE_ENV=production ENV=ee npm run build:bit",
     "clean:l10n": "git push origin --delete l10n_master",

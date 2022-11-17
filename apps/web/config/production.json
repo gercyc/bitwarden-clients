@@ -1,10 +1,12 @@
 {
   "urls": {
-    "icons": "https://icons.qa.bitwarden.pw",
+    "base": "https://api.camposdev.tech",
+    "api": "https://api.camposdev.tech",
+    "identity": "https://identity.camposdev.tech",
+    "webVault": "https://vault.camposdev.tech",
     "notifications": "https://notifications.camposdev.tech",
-    "scim": "https://scim.camposdev.tech",
-    "Api": "https://api.camposdev.tech",
-    "Identity": "https://identity.camposdev.tech"
+    "events": "https://events.camposdev.tech",
+    "icons": "https://icons.bitwarden.net"
   },
   "stripeKey": "SECRET",
   "braintreeKey": "SECRET",
